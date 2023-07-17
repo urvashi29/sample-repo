@@ -1,0 +1,47 @@
+.container {
+  background-color: yellow;
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+/* standard breakpoints */
+/* 0px till 400px */
+@media only screen and (max-width: 400px) {
+  .container {
+    background-color: orange;
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+/* 600px and above */
+@media only screen and (min-width: 600px) {
+  .container {
+    background-color: aqua;
+  }
+}
+
+/* 768px and above */
+@media screen and (min-width: 768px) {
+  .container {
+    background-color: yellowgreen;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    background-color: blue;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    background-color: blueviolet;
+  }
+}
